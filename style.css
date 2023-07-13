@@ -3,9 +3,12 @@ body {
     margin: 0;
 }
 
-h1,
-h2 {
+h1 {
     font-size: 50px;
+}
+
+h2 {
+    40px
 }
 
 .orange-color {
@@ -23,10 +26,28 @@ h2 {
     padding-left: 5%;
 }
 
+.experience-iteam {
+    box-shadow: 10px 10px 40px black;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+#border {
+    border-left: 7px solid tomato;
+}
+
+#border2 {
+    border-left: 7px solid blue;
+}
+
 .half-width img {
     width: 80%;
     margin-top: 10px;
-
 }
 
 .link-button {
@@ -47,4 +68,19 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+footer p {
+    text-align: center;
+}
+
+.pd {
+    padding-left: 30px;
 }
